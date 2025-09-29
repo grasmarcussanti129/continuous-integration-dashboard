@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Sample route
 app.get('/', (req, res) => {
-  res.send('Welcome to the CI Dashboard API!');
+  res.send('Welcome to the improved CI Dashboard API!');
 });
 
 app.listen(PORT, () => {
